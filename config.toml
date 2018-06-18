@@ -1,5 +1,5 @@
-baseurl = "https://turtletooth.com/"
-title = "TurtleTooth"
+baseurl = "https://jeremycbullock.com/"
+title = "Jeremy Bullock"
 theme = "turtletooth"
 languageCode = "en-us"
 
@@ -16,7 +16,7 @@ paginate = 3
     viewMorePostLink     = "/blog/"
     author = "Jeremy Bullock"
     email = "jcbullock@gmail.com"
-    about_us = "<p>TurtleTooth is the website of Jeremy Bullock</p>"
+    about_us = ""
     copyright = "Copyright &copy; 2015 - 2018, TurtleTooth Media."
     date_format = "2006-01-02"
     logo = "img/logo.png"

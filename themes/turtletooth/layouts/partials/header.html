@@ -13,17 +13,7 @@
                     <a class="nav-link" href="{{ .url | absURL }}">{{ .name }}</a>
                 </li>
                 {{ end }}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                    Content
-                  </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        {{ $root := . }} {{ range .Site.Params.dropdown }}
-                        <a class="dropdown-item" href="{{ .url | absURL }}">{{ .name }}</a> 
-                        {{ end }}
-                    </div>
-                </li>
+                
                 {{ $root := . }} {{ range last 1 .Site.Params.menu }}
                 <li class="nav-item">
                     <a class="nav-link" href="{{ .url | absURL }}">{{ .name }}</a>
@@ -31,9 +21,6 @@
                 {{ end }}
                 <li class="nav-item">
                 <a class="nav-link" href="http://youtube.com/c/jeremybullock"><i class="fa fa-youtube-play"></i></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="http://github.com/turtletooth"><i class="fa fa-github"></i></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="http://twitter.com/turtletooth"><i class="fa fa-twitter"></i></a>
